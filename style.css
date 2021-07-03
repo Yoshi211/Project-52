@@ -1,0 +1,84 @@
+h3 {
+    color: white
+}
+
+li {
+    font-size: 20px;
+    color: white;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none
+}
+
+a:visited {
+    color: white;
+    text-decoration: none
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: 400;
+    color: white;
+    padding: 40px;
+}
+
+.us {
+    font-size: 20px;
+    position: relative;
+    bottom: -80px;
+    right: -30px;
+}
+
+.us:hover {
+    transform: scale(1.05);
+}
+
+.title {
+    position: relative;
+    bottom: -10px;
+    right: -90px;
+}
+
+.s {
+    position: relative;
+    bottom: -10px;
+    right: -40px;
+}
+
+.s:hover {
+    transform: scale(1.05);
+}
+
+.grid {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.grid img{
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.o {
+    width:520px;
+    font-family: sans-serif;
+    background-color: black;
+    border-radius: 20px;
+    padding: 110px;
+    margin: 30px;
+}
+
+.o:hover {
+    transform: scale(1.05);
+}
